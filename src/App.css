@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  background-color: #A6FF3D;
+  height: 100px;
+  align-items: center;
+}
+.navBar__logo{
+  font-size: 32px;
+  padding: 20px
+}
+.navBar__logo-text{
+  font-size: 32px;
+  color: #EB3EFF;
+  font-style: oblique;
+}
+
+.navBar__list{
+  display: flex;
+}
+.navBar__list-link{
+  font-size: 28px;
+}
+.navBar__list-li{
+  padding: 5px;
+  font-weight: bold;
+  color: #EB3EFF;
+  margin: 0 10px;
+}
+.navBar__list-li :visited{
+  color: #EB3EFF;
+}
+.navBar__list-li :hover{
+  background-color: #EE90FF;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 34px;
+  transition: 0.5s;
+}
+.carWidget{
+  display: flex;
+  padding: 10px;
+}
+.cardWidget__img{
+height: 50px;
+width: 50px;  
+}
+.carWidget__text{
+  font-size: 19px;
+  font-weight: bold;
+  position: relative;
+  right: 33px;
+  top: 10px;
+}
