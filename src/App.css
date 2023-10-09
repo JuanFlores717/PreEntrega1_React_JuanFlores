@@ -60,3 +60,19 @@ width: 50px;
   right: 33px;
   top: 10px;
 }
+.botonSaludo{
+  padding: 20px;
+  margin: 20px;
+}
+.saludo{
+  color:#A6FF3D;
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #EB3EFF;
+}
+.alarmaSaludos{
+  color:red;
+  background-color: black;
+  font-size: 78px;
+  font-weight: bold;
+}
